@@ -2,6 +2,16 @@
 <html style="font-family: 'Source Sans Pro', sans-serif;">
 
 <head>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-164323152-1"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'UA-164323152-1');
+	</script>
+
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>QTMA</title>
@@ -28,13 +38,13 @@
                         <li class="nav-item" role="presentation"><a class="nav-link" href="index.html">Home</a></li>
                         <li class="nav-item" role="presentation"><a class="nav-link" href="history.html">History</a></li>
                         <li class="nav-item dropdown"><a class="dropdown-toggle nav-link active" data-toggle="dropdown" aria-expanded="false" href="#">Products</a>
-                            <div class="dropdown-menu" role="menu"><a class="dropdown-item" role="presentation" href="projects.html">2019/2020</a></div>
+                            <div class="dropdown-menu" role="menu"><a class="dropdown-item" role="presentation" href="products.html">2019/2020</a></div>
                         </li>
                         <li class="nav-item dropdown"><a class="dropdown-toggle nav-link" data-toggle="dropdown" aria-expanded="false" href="#">Team&nbsp;</a>
                             <div class="dropdown-menu" role="menu"><a class="dropdown-item" role="presentation" href="team.html">2019/2020</a></div>
                         </li>
                         <li class="nav-item" role="presentation"><a class="nav-link" href="placement.html">Placements</a></li>
-                        <li class="nav-item" role="presentation"><a class="nav-link" href="#">Reports</a></li>
+                        <li class="nav-item" role="presentation"><a class="nav-link" href="reports.html">Reports</a></li>
                     </ul>
                     <form class="form-inline mr-auto" target="_self">
                         <div class="form-group"><label for="search-field"></label></div>
@@ -43,12 +53,14 @@
     </nav>
     </div>
     <div class="contact-clean" style="background-color: #edf5fc;">
-        <form method="post">
-            <h2 class="text-center">Contact us</h2>
+        <form data-bss-recipient="a1ca5debbd17e9daa13c65a916478766">
+            <h2 class="text-center">Contact Us</h2>
+            <p class="text-center">You can reach us through the form below or by sending an email to <a href="mailto:qtmaexec@gmail.com">qtmaexec@gmail.com</a>.</p>
             <div class="form-group"><input class="form-control" type="text" name="name" placeholder="Name"></div>
-            <div class="form-group"><input class="form-control is-invalid" type="email" name="email" placeholder="Email"><small class="form-text text-danger">Please enter a correct email address.</small></div>
+            <div class="form-group"><input class="form-control" type="text" name="email" placeholder="E-mail"></div>
+            <div class="form-group"><input class="form-control" type="text" name="subject" placeholder="Subject"></div>
             <div class="form-group"><textarea class="form-control" name="message" placeholder="Message" rows="14"></textarea></div>
-            <div class="form-group"><button class="btn btn-primary" type="submit">send </button></div>
+            <div class="form-group text-center"><button class="btn btn-primary" type="submit">send </button></div>
         </form>
     </div>
     <div class="footer-dark" style="background-color: #222831;">
@@ -66,6 +78,7 @@
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/smart-forms.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/js/swiper.jquery.min.js"></script>
     <script src="assets/js/script.min.js"></script>
